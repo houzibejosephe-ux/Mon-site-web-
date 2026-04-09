@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Mode clair */
+body.light {
+    background: #f4f4f4;
+    color: black;
+}
+
+/* Header */
+header {
+    background: #020617;
+    padding: 20px;
+    text-align: center;
+}
+
+body.light header {
+    background: white;
+}
+
+/* Boutons */
+.actions {
+    margin-top: 10px;
+}
+
+.btn {
+    background: #38bdf8;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+/* Toggle */
+#themeToggle {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Sections */
+section {
+    padding: 60px;
+    text-align: center;
+}
+
+/* Projets */
+.project {
+    background: #1e293b;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    width: 60%;
+    transition: 0.3s;
+}
+
+body.light .project {
+    background: white;
+}
+
+/* Images */
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Hover */
+.project:hover {
+    transform: scale(1.05);
+}
+
+/* Formulaire */
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Animation */
+.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 0.8s;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
